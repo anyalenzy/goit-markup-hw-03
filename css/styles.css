@@ -16,7 +16,7 @@ ol {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-studio {
@@ -25,8 +25,8 @@ ol {
 .nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -39,8 +39,8 @@ ol {
 .address-link {
   color: currentColor;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address-link:focus,
 .address-link:hover {
@@ -56,7 +56,7 @@ ol {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .section-order-button {
   background: var(--IRIS, #4d5ae5);
@@ -65,8 +65,8 @@ ol {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .section-order-button:hover,
 .section-order-button:focus {
@@ -85,8 +85,8 @@ ol {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .section-text {
   font-size: 16px;
