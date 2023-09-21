@@ -1,14 +1,54 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: var(--SLATE, #434455);
-  background-color: #fff;
-}
 a {
   text-decoration: none;
+  display: inline-block;
 }
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--SLATE, #434455);
+  background-color: #fff;
+  width: 100%;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 .logo {
   color: var(--IRIS, #4d5ae5);
@@ -23,6 +63,7 @@ ol {
   color: var(--NAVY-BLUE, #2e2f42);
 }
 .nav-link {
+  padding: 24px 0;
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
   line-height: 1.5;
@@ -35,6 +76,10 @@ ol {
 }
 .address {
   font-style: normal;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 .address-link {
   color: currentColor;
@@ -49,7 +94,12 @@ ol {
 .section-order {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
+.section-order-container {
+  padding: 188px 0;
+}
 .section-order-title {
+  max-width: 496px;
+  margin: 0 auto;
   color: var(--WHITE, #fff);
   text-align: center;
   font-family: Roboto;
@@ -59,6 +109,9 @@ ol {
   letter-spacing: 0.02em;
 }
 .section-order-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: var(--WHITE, #fff);
