@@ -126,6 +126,9 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
@@ -207,14 +210,12 @@ body {
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
   color: var(--CLOUD, #f4f4fd);
-}
-.footer-container {
   padding: 100px 0;
 }
 
 .footer .logo {
   color: #4d5ae5;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 .footer .logo-studio {
   color: #f4f4fd;
