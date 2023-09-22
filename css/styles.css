@@ -91,11 +91,24 @@ body {
 .address-link:hover {
   color: #404bbf;
 }
+.section {
+  padding: 120px 0;
+}
 .section-order {
   background-color: var(--NAVY-BLUE, #2e2f42);
-}
-.section-order-container {
   padding: 188px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-order-title {
   max-width: 496px;
@@ -112,6 +125,8 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
+  padding: 16px 32px;
+  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: var(--WHITE, #fff);
@@ -126,6 +141,7 @@ body {
   background: #404bbf;
 }
 .section-title {
+  margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -134,7 +150,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+.section-features-list {
+  display: flex;
+  gap: 24px;
+}
+.section-features-item {
+  flex-basis: 264px;
+}
 .section-title-little {
+  margin-bottom: 8px;
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -150,16 +175,49 @@ body {
   background-color: #f4f4fd;
 }
 .section-team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.section-team-item {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
+  align-items: center;
+}
+.team-cart-down {
+  padding: 32px 0;
+}
+.section-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+.section-portfolio-item {
+  width: calc((100% - 48px) / 3);
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-cart-down {
+  padding: 32px 16px 32px 16px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-top: none;
 }
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
   color: var(--CLOUD, #f4f4fd);
 }
+.footer-container {
+  padding: 100px 0;
+}
 
 .footer .logo {
   color: #4d5ae5;
+  margin-bottom: 17.5px;
 }
 .footer .logo-studio {
   color: #f4f4fd;
+}
+.footer p {
+  max-width: 264px;
 }
